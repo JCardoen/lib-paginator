@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Example</title>
+        <style>
+            body {
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .container {
+                max-width: 960px;
+                min-width: 320px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                justify-content: center;
+                flex-direction: row;
+            }
+            article {
+                width: 48%;
+                border: 1px solid black;
+                margin: 1%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <article class="item">
+            <p>Lorem Ipsummmmmm 1</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 2</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 3</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 3</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 4</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 5</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 6</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 8</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 9</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 10</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 11</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 12</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 13</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 14</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 15</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 16</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 17</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 18</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 19</p>
+        </article>
+        <article class="item">
+            <p>Lorem Ipsummmmmm 20</p>
+        </article>
+        </div>
+        <ul class="paginationlist">
+
+        </ul>
+        <script src="pagination.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                new Paginator('.item', '.paginationlist', 10).init();
+            })
+        </script>
+    </body>
+</html>
