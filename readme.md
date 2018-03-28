@@ -16,5 +16,5 @@ ES6 syntax is provided in the script.
         })
     </script>
 ```
-3. Provide an item selector, a ul selector (put empty <ul> with a class in your html) and a displayCount (how many items you'd like to display)
+3. Provide an item selector, a ul selector (put empty ul-tag with a class in your html) and a displayCount (how many items you'd like to display)
 4. Style it
