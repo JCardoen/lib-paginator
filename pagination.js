@@ -1,3 +1,8 @@
+/**
+ * Main Script -- Copyright: Joachim Cardoen
+ * Modify to own liking
+ */
+
 class Paginator {
     constructor(itemSelector, listSelector, displayCount) {
         this.itemSelector = itemSelector;
