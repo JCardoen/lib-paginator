@@ -32,6 +32,7 @@ class Paginator {
         const items = document.querySelectorAll(this.itemSelector);
         items.forEach(item => {
             item.style.display = 'none';
+            item.style.opacity = '0';
         });
     }
 
@@ -39,6 +40,7 @@ class Paginator {
         this.hideAll();
         for (var i = 0; i < this.displayCount; i++) {
             document.querySelectorAll(this.itemSelector)[i + offset].style.display = 'initial';
+            document.querySelectorAll(this.itemSelector)[i + offset].style.opacity = '100';
         }
     }
 

@@ -3,6 +3,7 @@
 ### Description
 
 This is a very barefoot pagination lib, functioning as a boilerplate for your pagination usage. Style to your own liking, feel free to edit the lib (it is very small).
+Animation possible using the opacity of the item or edit the script to provide other animations.
 ES6 syntax is provided in the script.
 
 ### Simple usage:
